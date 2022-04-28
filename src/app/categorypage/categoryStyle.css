@@ -1,0 +1,94 @@
+::ng-deep .custom-ngx-slider{
+ width: 150px;
+}
+
+::ng-deep .custom-ngx-slider .ngx-slider .ngx-slider-bar {
+  background: #ffe4d1;
+  height: 5px;
+}
+
+::ng-deep .custom-ngx-slider .ngx-slider .ngx-slider-selection {
+  background: #B78C60;
+}
+
+::ng-deep .custom-ngx-slider .ngx-slider .ngx-slider-pointer {
+  width: 10px;
+  height: 10px;
+  bottom: 0;
+  background-color: #22c70a;
+}
+
+::ng-deep .custom-ngx-slider .ngx-slider .ngx-slider-pointer:after {
+  display: none;
+}
+
+::ng-deep .custom-ngx-slider .ngx-slider .ngx-slider-bubble {
+  bottom: 14px;
+}
+
+::ng-deep .custom-ngx-slider .ngx-slider .ngx-slider-limit {
+  font-weight: bold;
+  color: #B78C60;
+}
+
+::ng-deep .custom-ngx-slider .ngx-slider .ngx-slider-tick {
+  width: 3px;
+  height: 15px;
+  margin-left: 4px;
+  border-radius: 0;
+  background: #ccc;
+  top: -1px;
+}
+
+::ng-deep .custom-ngx-slider .ngx-slider .ngx-slider-tick.ngx-slider-selected {
+  background: rgb(0, 110, 255);
+}
+
+.clip__filter-option {
+  list-style-type: none;
+  padding: 10px 10px;
+}
+
+.clip__filter-title {
+  font-size: 0.5em;
+  color: #C4986F;
+  font-family: popins;
+}
+
+.productSection{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.categoryBody{
+  display: flex; flex-direction: row;
+}
+
+.filterSection{
+  display: block;
+  flex: 2;
+}
+
+.pageBanner{
+  border: 1px black solid; border-radius: 2px; height: 200px; width: 80vw; margin-inline: 10vw; margin-bottom: 20px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 700px) {
+  .pageBanner{
+    width: 90vw;
+    margin-inline: 5vw
+  }
+
+  .filterSection{
+    display: none;
+  }
+  .productSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

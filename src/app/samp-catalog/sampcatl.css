@@ -1,0 +1,30 @@
+.sampCatl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 5em;
+    margin-top: 2em;
+}
+
+h1{
+    
+}
+
+.sampProduct{
+    display: flex; flex-direction: column;
+}
+
+@media screen and (max-width : 500px) {
+    .sampCatl{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-inline: 5em;
+        margin-top: 2em;
+    }
+
+    .sampProduct{
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,27 @@
+.cartBody{
+    display: flex; flex-direction: row; justify-content: space-evenly; padding: 20px; margin-top: 20px; margin-inline: 10px;
+    border-bottom: #A26D44 1px solid;
+}
+
+.cartImg{
+    height: 15vw; border-radius: 10px;
+}
+
+.cartDesc{
+    display: block;
+    width: 50vw; height: 10px; font-size: 1em;
+    color: rgb(80, 80, 80);
+}
+
+.infoBode>h1{
+    font-size: 1vw;
+}
+
+@media screen and(max-width:500px) {
+    .cartDesc{
+        display: none;
+    }
+    .cartImg{
+        height: 25vw; border-radius: 10px;
+    }
+}

@@ -1,0 +1,105 @@
+.windowBody{
+    margin: 1em;
+    padding: 0.5em; border: #682522 2px solid; border-radius: 10px;
+}
+.windowBody:hover{
+    padding: 0.5em;
+    border: #682522 1px solid;
+    border-radius: 10px;
+    box-shadow: #682522 0px 0px 7px 0px;
+}
+.windowImg{
+    width: 25vh;
+    border-radius: 1em;
+}
+
+.windowName{
+    font-size: 1.2em;
+}
+
+.windowPrice{
+    display: flex; flex-direction: row;
+}
+
+.windowDisc{
+    text-decoration: line-through;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.windowBodyLg{
+    padding: 1em; border: brown 1px solid; border-radius: 20px;
+}
+
+.windowImgLg{
+    width: 40vh;
+    border-radius: 1em;
+}
+
+.windowNameLg{
+    font-size: 2.4em;
+}
+
+.windowPriceLg{
+    display: flex; flex-direction: row;
+}
+
+.windowDiscLg{
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+
+
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 500px) {
+    .windowBody{
+        margin: 0.3em;
+        padding: 0.2em; border: #682522 1px solid; border-radius: 5px;
+    }
+    .windowBody:hover{
+        padding: 0.2em;
+        border: #682522 1px solid;
+        border-radius: 5px;
+        box-shadow: #682522 0px 0px 5px 0px;
+    }
+    .windowImg{
+        width: 20vh;
+        border-radius: 0.5em;
+    }
+    
+    .windowName{
+        font-size: 0.9em;
+    }
+    
+    .windowPrice{
+        display: flex; flex-direction: row; 
+    }
+    
+    .windowDisc{
+        text-decoration: line-through;
+        padding-left: 5px;
+    }
+    
+    .windowBodyLg{
+        padding: 0.5em; border: brown 1px solid; border-radius: 10px;
+    }
+    
+    .windowImgLg{
+        width: 40vh;
+        border-radius: 1em;
+    }
+    
+    .windowNameLg{
+        font-size: 2.4em;
+    }
+    
+    .windowPriceLg{
+        display: flex; flex-direction: row;
+    }
+    
+    .windowDiscLg{
+        text-decoration: line-through;
+        padding-left: 20px;
+    }
+  }

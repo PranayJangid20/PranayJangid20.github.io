@@ -1,0 +1,72 @@
+.windowBody{
+    padding: 0.5em; border: #682522 1px solid; border-radius: 10px;
+}
+.windowBody:hover{
+    padding: 0.5em;
+    border: #682522 1px solid;
+    border-radius: 10px;
+    box-shadow: #682522 0px 0px 7px 0px;
+}
+
+.windowImg{
+    width: 25vh;
+    border-radius: 1em;
+}
+
+.windowName{
+    font-size: 1.2em;
+}
+
+.windowPrice{
+    display: flex; flex-direction: row;
+}
+
+.windowDisc{
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.windowBodyLg{
+    
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em; border: #682522 2px solid; border-radius: 20px;
+}
+
+.windowImgLg{
+    width: 40vh;
+    border-radius: 1em;
+}
+
+.windowNameLg{
+    font-size: 2.4em;
+}
+
+.windowPriceLg{
+    display: flex; flex-direction: row;
+}
+
+.windowDiscLg{
+    text-decoration: line-through;
+    padding-left: 20px;
+}
+.windowBodyLg:hover{
+    box-shadow: #682522 0px 0px 7px 0px;
+}
+
+@media screen and (max-width:500px){
+    .windowImgLg{
+        margin-right: 20px;
+        width: 20vh;
+        border-radius: 1em;
+    }
+    .windowNameLg{
+        font-size: 1.8em;
+        align-items: center;
+    }
+    .windowBodyLg{
+        flex-direction: row;
+        padding: 0.5em;
+    }
+}

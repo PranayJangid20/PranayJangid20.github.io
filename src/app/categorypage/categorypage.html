@@ -1,0 +1,85 @@
+<div
+    class="pageBanner">
+
+</div>
+
+<div style="height: 50px; width: 80vw; margin-inline: 10vw; background-color: #B78C60; margin-bottom: 20px;">
+
+</div>
+
+<img src="file:///C:/Users/ASUS/Downloads/icons8-filter-48.png" style="margin: 5px; padding: 1em; background-color: #C49865;">
+
+<div class="categoryBody" >
+    <div class="filterSection">
+        <div class="clip__filter is_stuck" style=" width: 287.9px;">
+            <div class="clip__filter-title">
+                <h2>Sort by</h2>
+            </div>
+            <ul class="clip__filter-option" id="sortBY">
+                <li class="radio" data-sort="ranking-desc">
+                    <input type="radio" id="ranking-desc" name="sort-content" checked="checked">
+                    <label for="ranking-desc">Relevance</label>
+                </li>
+                <li class="radio" data-sort="price-desc">
+                    <input type="radio" id="price-desc" name="sort-content">
+                    <label for="price-desc">Highest Priced First</label>
+                </li>
+                <li class="radio" data-sort="price-asc">
+                    <input type="radio" id="price-asc" name="sort-content">
+                    <label for="price-asc">Lowest Priced First</label>
+                </li>
+                <li class="radio" data-sort="ttw-asc">
+                    <input type="radio" id="ttw-asc" name="sort-content">
+                    <label for="ttw-asc">Fastest Shipping</label>
+                </li>
+                <li class="radio" data-sort="updated_at-desc">
+                    <input type="radio" id="updated_at-desc" name="sort-content">
+                    <label for="updated_at-desc">Newest</label>
+                </li>
+            </ul>
+        </div>
+        <div class="clip__filter is_stuck" style=" width: 287.9px;">
+            <div class="clip__filter-title">
+                <h2>Price</h2>
+            </div>
+            <div class="custom-ngx-slider">
+                <ngx-slider [(value)]="value" [(highValue)]="highValue" [options]="options"></ngx-slider>
+            </div>
+
+        </div>
+        <div class="clip__filter is_stuck" style=" width: 287.9px;">
+            <div class="clip__filter-title">
+                <h2>Wood Type</h2>
+            </div>
+            <ul class="clip__filter-option" id="woodType">
+                <li class="radio">
+                    <input type="radio" id="wd1" name="sort-wood" checked="checked">
+                    <label for="ranking-desc">Wood 1</label>
+                </li>
+                <li class="radio">
+                    <input type="radio" id="wd2" name="sort-wood">
+                    <label>Wood 2</label>
+                </li>
+                <li class="radio">
+                    <input type="radio" id="wd3" name="sort-wood">
+                    <label>Wood 3</label>
+                </li>
+                <li class="radio">
+                    <input type="radio" id="wd4" name="sort-wood">
+                    <label>Wood 4</label>
+                </li>
+                <li class="radio">
+                    <input type="radio" id="wd5" name="sort-wood">
+                    <label>Wood 5</label>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="productSection">
+        <!-- <app-peoductwindow [name]="productName[0]"></app-peoductwindow> -->
+
+        <app-peoductwindow *ngFor="let name of productName" [name]="name"></app-peoductwindow>
+
+    </div>
+</div>

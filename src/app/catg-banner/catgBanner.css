@@ -1,0 +1,46 @@
+.banrDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-inline: 5em;
+    background: antiquewhite;
+    padding: 20px;
+}
+
+.banrObj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.banrImg{
+    height: 30vh;
+}
+.banrObj>h3{
+    padding-top:2em;
+}
+
+.banrText{
+    width: 2em;
+}
+
+@media screen and (max-width : 500px) {
+    .banrDiv{
+        flex-direction: column;
+    }
+    .banrObj{
+        margin: 20px;
+    }
+
+    .banrImg{
+        height: 30vh;
+    }
+}
