@@ -17,11 +17,14 @@
     font-size: 1vw;
 }
 
-@media screen and(max-width:500px) {
-    .cartDesc{
-        display: none;
+    @media screen and(max-width:500px) {
+        .cartDesc{
+            display: none;
+        }
+        .cartImg{
+            height: 25vw; border-radius: 10px;
+        }
+        .infoBode>h1{
+            font-size: 0.8vw;
+        }
     }
-    .cartImg{
-        height: 25vw; border-radius: 10px;
-    }
-}

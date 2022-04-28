@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   
   styleUrls:['./peoductwindow.css'],
   template: `
-    <div class="windowBodyLg">
+    <div class="windowBodyLg"  routerLink="/product" routerLinkActive="active">
    <img class="windowImgLg"
     src="https://ii1.pepperfry.com/media/catalog/product/c/a/800x880/carden-solid-wood-arm-chair-in-rustic-teak-finish---woodsworth-by-pepperfry-carden-solid-wood-arm-ch-knwykl.jpg"
     alt="">

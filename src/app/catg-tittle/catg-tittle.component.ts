@@ -10,7 +10,7 @@ import { Component, OnInit, Input } from '@angular/core';
     margin-inline: 5em;
     border-bottom: #707070 1px solid;">
       <h3>{{titleName}}</h3>
-      <a href="/">more</a>
+      <a  routerLink="/catagory" routerLinkActive="active">more</a>
     </div>
   `,
   styles: [
