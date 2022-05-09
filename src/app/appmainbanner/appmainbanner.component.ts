@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-appmainbanner',
   template: `
     <div class="mainBnrDiv" routerLink="/catagory" routerLinkActive="active">
-      <h1 class="mainBnrTxt">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur</h1>
+      <h1 class="mainBnrTxt">{{infoBnr}}</h1>
       <img class="mainBnrImg" 
-    src="https://ii1.pepperfry.com/media/catalog/product/c/a/800x880/carden-solid-wood-arm-chair-in-rustic-teak-finish---woodsworth-by-pepperfry-carden-solid-wood-arm-ch-knwykl.jpg" alt="">
+    src={{imgLink}} alt="">
     </div>
   `,
   styleUrls :['./mainbanner.css'],
@@ -15,7 +15,8 @@ import { Component, OnInit } from '@angular/core';
 export class AppmainbannerComponent implements OnInit {
 
   constructor() { }
-
+  @Input() imgLink:String="";
+  @Input() infoBnr : String ="";
   ngOnInit(): void {
   }
 

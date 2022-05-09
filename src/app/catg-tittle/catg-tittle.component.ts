@@ -10,7 +10,7 @@ import { Component, OnInit, Input } from '@angular/core';
     margin-inline: 5em;
     border-bottom: #707070 1px solid;">
       <h3>{{titleName}}</h3>
-      <a  routerLink="/catagory" routerLinkActive="active">more</a>
+      <a  routerLink="/catagory" [queryParams]="{ category: titleName }" routerLinkActive="active">more</a>
     </div>
   `,
   styles: [
@@ -18,7 +18,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CatgTittleComponent implements OnInit {
 
-  @Input() titleName = "Angular";
+  @Input() titleName: String = "Angular";
 
   constructor() {}
 

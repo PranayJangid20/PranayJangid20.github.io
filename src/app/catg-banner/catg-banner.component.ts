@@ -1,18 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-catg-banner',
   template: `
     <div class="banrDiv">
       <div class="banrObj">
-        <img class="banrImg" src="https://ii1.pepperfry.com/media/catalog/product/c/a/800x880/carden-solid-wood-arm-chair-in-rustic-teak-finish---woodsworth-by-pepperfry-carden-solid-wood-arm-ch-knwykl.jpg" alt="">
-        <h3 style="">Lorem /n Sorem</h3>
+        <img class="banrImg" src={{imgLink1}} alt="">
+        <h3 style="">{{infoImg2}}</h3>
       </div>
-      <h1 class='bnrText'>Skilled hands at work</h1>
+      <h1 class='bnrText' style="200px">{{infoBnr}}</h1>
               
       <div class="banrObj">
-        <img class="banrImg" src="https://ii1.pepperfry.com/media/catalog/product/c/a/800x880/carden-solid-wood-arm-chair-in-rustic-teak-finish---woodsworth-by-pepperfry-carden-solid-wood-arm-ch-knwykl.jpg" alt="">
-        <h3 style="">Lorem /n Sorem</h3>
+        <img class="banrImg" src={{imgLink2}} alt="">
+        <h3 style="">{{infoImg1}}</h3>
       </div>
     </div>
   `,
@@ -21,7 +21,11 @@ import { Component, OnInit } from '@angular/core';
 export class CatgBannerComponent implements OnInit {
 
   constructor() { }
-
+  @Input() imgLink1:String="";
+  @Input() imgLink2:String="";
+  @Input() infoBnr : String ="";
+  @Input() infoImg1 : String ="";
+  @Input() infoImg2 : String ="";
   ngOnInit(): void {
   }
 
