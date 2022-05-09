@@ -20,14 +20,7 @@ import { environment } from 'src/environments/environment';
         <a class="nav-link active" routerLink="/" routerLinkActive="active">Home Page</a>
         </li>
         <li class="nav-item">
-        <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#" *ngFor="let name of ">Action</a></li>
-  </ul>
-</div>
+        <a class="nav-link active" routerLink="/catagory" routerLinkActive="active">Products</a>
         </li>
         <li class="nav-item">
         <a class="nav-link active" routerLink="/about" routerLinkActive="active">About Page</a>
