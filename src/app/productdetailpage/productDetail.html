@@ -5,86 +5,15 @@
 
         <ul class="imageSlider">
             <!-- Image slider start -->
-            <li class="vipImage__thumb-each noClickSlide">
+            <li class="vipImage__thumb-each noClickSlide" *ngFor="let image of productImage">
                 <a href="javascript:void(0);" data-tabindex="0"
-                    data-img="https://ii1.pepperfry.com/media/catalog/product/t/h/800x880/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-yvsovt.jpg"
-                    data-hoverimg="https://ii1.pepperfry.com/media/catalog/product/t/h/1100x1210/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-yvsovt.jpg">
-                    <img class="vipImage__thumb-each-pic loaded" itemprop="image"
-                        src="https://ii1.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-yvsovt.jpg"
-                        data-src="https://ii1.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-yvsovt.jpg"
+                    ><img class="vipImage__thumb-each-pic loaded" style="width: 80px;" itemprop="image"
+                        src={{image}}
+                        data-src="{{image}}"
                         alt="">
                 </a>
             </li>
-            <li class="vipImage__thumb-each noClickSlide active">
-                <a href="javascript:void(0);" data-tabindex="1"
-                    data-img="https://ii1.pepperfry.com/media/catalog/product/t/h/800x880/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-ifp7ne.jpg"
-                    data-hoverimg="https://ii1.pepperfry.com/media/catalog/product/t/h/1100x1210/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-ifp7ne.jpg">
-                    <img class="vipImage__thumb-each-pic loaded"
-                        src="https://ii2.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-ifp7ne.jpg"
-                        data-src="https://ii2.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-ifp7ne.jpg"
-                        alt="">
-                </a>
-            </li>
-            <li class="vipImage__thumb-each noClickSlide">
-                <a href="javascript:void(0);" data-tabindex="2"
-                    data-img="https://ii1.pepperfry.com/media/catalog/product/t/h/800x880/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-wkuhll.jpg"
-                    data-hoverimg="https://ii1.pepperfry.com/media/catalog/product/t/h/1100x1210/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-wkuhll.jpg">
-                    <img class="vipImage__thumb-each-pic loaded"
-                        src="https://ii3.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-wkuhll.jpg"
-                        data-src="https://ii3.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-wkuhll.jpg"
-                        alt="">
-                </a>
-            </li>
-            <li class="vipImage__thumb-each noClickSlide">
-                <a href="javascript:void(0);" data-tabindex="3"
-                    data-img="https://ii1.pepperfry.com/media/catalog/product/t/h/800x880/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-apzlfk.jpg"
-                    data-hoverimg="https://ii1.pepperfry.com/media/catalog/product/t/h/1100x1210/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-apzlfk.jpg">
-                    <img class="vipImage__thumb-each-pic loaded"
-                        src="https://ii1.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-apzlfk.jpg"
-                        data-src="https://ii1.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-apzlfk.jpg"
-                        alt="">
-                </a>
-            </li>
-            <li class="vipImage__thumb-each noClickSlide">
-                <a href="javascript:void(0);" data-tabindex="4"
-                    data-img="https://ii1.pepperfry.com/media/catalog/product/t/h/800x880/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-zojdjn.jpg"
-                    data-hoverimg="https://ii1.pepperfry.com/media/catalog/product/t/h/1100x1210/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-zojdjn.jpg">
-                    <img class="vipImage__thumb-each-pic loaded"
-                        src="https://ii2.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-zojdjn.jpg"
-                        data-src="https://ii2.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-zojdjn.jpg"
-                        alt="">
-                </a>
-            </li>
-            <li class="vipImage__thumb-each noClickSlide">
-                <a href="javascript:void(0);" data-tabindex="5"
-                    data-img="https://ii1.pepperfry.com/media/catalog/product/t/h/800x880/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-mozzxt.jpg"
-                    data-hoverimg="https://ii1.pepperfry.com/media/catalog/product/t/h/1100x1210/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-mozzxt.jpg">
-                    <img class="vipImage__thumb-each-pic loaded"
-                        src="https://ii3.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-mozzxt.jpg"
-                        data-src="https://ii3.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-mozzxt.jpg"
-                        alt="">
-                </a>
-            </li>
-            <li class="vipImage__thumb-each noClickSlide">
-                <a href="javascript:void(0);" data-tabindex="6"
-                    data-img="https://ii1.pepperfry.com/media/catalog/product/t/h/800x880/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-tbrayw.jpg"
-                    data-hoverimg="https://ii1.pepperfry.com/media/catalog/product/t/h/1100x1210/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-tbrayw.jpg">
-                    <img class="vipImage__thumb-each-pic loaded"
-                        src="https://ii1.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-tbrayw.jpg"
-                        data-src="https://ii1.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-tbrayw.jpg"
-                        alt="">
-                </a>
-            </li>
-            <li class="vipImage__thumb-each noClickSlide">
-                <a href="javascript:void(0);" data-tabindex="7"
-                    data-img="https://ii1.pepperfry.com/media/catalog/product/t/h/800x880/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-76hsqo.jpg"
-                    data-hoverimg="https://ii1.pepperfry.com/media/catalog/product/t/h/1100x1210/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-76hsqo.jpg">
-                    <img class="vipImage__thumb-each-pic loaded"
-                        src="https://ii2.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-76hsqo.jpg"
-                        data-src="https://ii2.pepperfry.com/media/catalog/product/t/h/70x77/the-begum-wing-chair-floral-swirls-in-multicoloured-by-chumbak-the-begum-wing-chair-floral-swirls-in-76hsqo.jpg"
-                        alt="">
-                </a>
-            </li>
+            
             <!-- Image slider end -->
         </ul>
 
@@ -93,11 +22,10 @@
 
 
     <div class="detailSection">
-        <h1 style="font-family: 'Merriweather', serif;">Lorem</h1>
-        <h3 class="pdShortDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quidem reiciendis
-            cumque</h3>
+        <h1 style="font-family: 'Merriweather', serif;">{{productName}}</h1>
+        <h3 class="pdShortDesc">{{productDesc}}</h3>
 
-        <div class="windowPrice">
+        <!-- <div class="windowPrice">
             <h5 style=' color: #DC143C; font-size: 2em;'>₹799/-</h5>
             <h6 class="windowDisc">₹1299/-</h6>
         </div>
@@ -105,37 +33,35 @@
         <div class="actionDiv">
             <button class="BNbtn"  routerLink="/cart" routerLinkActive="active">ADD TO CART</button>
             <button class="BNbtn"  routerLink="/cart" routerLinkActive="active">BUY NOW</button>
-        </div>
+        </div> -->
 
 
         <h2>Description - </h2>
-        <h4 class="pdLongDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, quis sapiente. Harum
-            aliquid error maxime hic quis iste ab exercitationem nemo eveniet, quod veniam, expedita sit quas quasi id
-            voluptatibus.</h4>
+        <h4 class="pdLongDesc">{{productLDesc}}.</h4>
 
         <div class="character">
             <div>
 
                 <div class="charPoint">
                     <h2>Type - </h2>
-                    <h3>Sofa</h3>
+                    <h3>{{productCatg}}</h3>
                 </div>
                 <div class="divider"></div>
                 <div class="charPoint">
                     <h2>Weight - </h2>
-                    <h3>10Kg</h3>
+                    <h3>{{productWeight}}</h3>
                 </div>
             </div>
             <div>
 
                 <div class="charPoint">
                     <h2>Material - </h2>
-                    <h3>Sofa</h3>
+                    <h3>{{productCatg}}</h3>
                 </div>
                 <div class="divider"></div>
                 <div class="charPoint">
                     <h2>Size - </h2>
-                    <h3>80cm X 80cm X 100cm</h3>
+                    <h3>{{productSize}}</h3>
                 </div>
             </div>
         </div>

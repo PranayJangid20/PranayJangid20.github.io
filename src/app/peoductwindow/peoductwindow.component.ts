@@ -4,7 +4,7 @@ import { Component, OnInit, Input} from '@angular/core';
   selector: 'app-peoductwindow',
   styleUrls:['./peoductwindow.css'],
   template: `
-   <div class="windowBody"  routerLinkActive="active">
+   <div class="windowBody"  routerLink="/product" [queryParams]="{ product: prodName['id'] }"  routerLinkActive="active">
    <img class="windowImg"
     src="{{prodName['img']}}"
     alt="">
