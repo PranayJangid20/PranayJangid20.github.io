@@ -59,6 +59,9 @@ Apache-2.0
 @firebase/util
 Apache-2.0
 
+@firebase/webchannel-wrapper
+Apache-2.0
+
 bootstrap
 MIT
 The MIT License (MIT)
@@ -113,6 +116,8 @@ SOFTWARE.
 firebase/analytics
 
 firebase/app
+
+firebase/firestore
 
 firebase/firestore/lite
 

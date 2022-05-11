@@ -8,7 +8,7 @@ import { Component, OnInit, Input} from '@angular/core';
    <img class="windowImg"
     src="{{prodName['img']}}"
     alt="">
-    <h2 class="windowName">{{prodName['name']}}</h2>
+    <h2 class="windowName" style="max-width: 180px;">{{prodName['name']}}</h2>
     <!-- <div class="windowPrice" >
       <h5 style=' color: #DC143C;'>₹799/-</h5>
       <h6  class="windowDisc">₹1299/-</h6>

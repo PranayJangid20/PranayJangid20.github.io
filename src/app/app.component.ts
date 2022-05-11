@@ -19,15 +19,15 @@ import { environment } from 'src/environments/environment';
         <li class="nav-item">
         <a class="nav-link active" routerLink="/" routerLinkActive="active">Home Page</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
         <a class="nav-link active" routerLink="/catagory" routerLinkActive="active">Products</a>
-        </li>
+        </li> -->
         <li class="nav-item">
         <a class="nav-link active" routerLink="/about" routerLinkActive="active">About Page</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
         <a class="nav-link active" routerLink="/login" routerLinkActive="active">Profile</a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>

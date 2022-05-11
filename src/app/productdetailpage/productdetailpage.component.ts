@@ -53,6 +53,10 @@ export class ProductdetailpageComponent implements OnInit {
     });
   }
 
+  changeImg(img:string){
+    this.mainImage = img;
+  }
+
   ngOnInit(): void {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);

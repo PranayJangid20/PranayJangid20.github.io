@@ -7,7 +7,7 @@
             <!-- Image slider start -->
             <li class="vipImage__thumb-each noClickSlide" *ngFor="let image of productImage">
                 <a href="javascript:void(0);" data-tabindex="0"
-                    ><img class="vipImage__thumb-each-pic loaded" style="width: 80px;" itemprop="image"
+                    ><img (click)="changeImg(image)" class="vipImage__thumb-each-pic loaded" style="width: 80px;" itemprop="image"
                         src={{image}}
                         data-src="{{image}}"
                         alt="">

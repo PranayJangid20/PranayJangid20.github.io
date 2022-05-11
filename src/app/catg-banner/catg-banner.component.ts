@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
         <img class="banrImg" src={{imgLink1}} alt="">
         <h3 style="">{{infoImg2}}</h3>
       </div>
-      <h1 class='bnrText' style="200px">{{infoBnr}}</h1>
+      <h1 class='bnrText' style="text-align: center;">{{infoBnr}}</h1>
               
       <div class="banrObj">
         <img class="banrImg" src={{imgLink2}} alt="">

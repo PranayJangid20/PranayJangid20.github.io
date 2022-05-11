@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tulsi-arts-jodhpur"
+  },
+  "targets": {
+    "tulsi-arts-jodhpur": {
+      "hosting": {
+        "cust": [
+          "thetulsiarts"
+        ]
+      }
+    }
+  }
+}

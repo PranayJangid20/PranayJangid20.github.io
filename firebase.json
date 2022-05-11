@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "target": "cust",
+    "public": "dist/my-aprile-site",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

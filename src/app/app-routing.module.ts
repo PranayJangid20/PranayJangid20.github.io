@@ -26,18 +26,18 @@ const routes: Routes = [
     path:'about',
     component:AboutuspageComponent
   },
-  {
-    path:'login',
-    component:LoginpageComponent
-  },
-  {
-    path:'signup',
-    component:SignuppageComponent
-  },
-  {
-    path:'cart',
-    component:CartpageComponent
-  },
+  // {
+  //   path:'login',
+  //   component:LoginpageComponent
+  // },
+  // {
+  //   path:'signup',
+  //   component:SignuppageComponent
+  // },
+  // {
+  //   path:'cart',
+  //   component:CartpageComponent
+  // },
 ];
 
 @NgModule({

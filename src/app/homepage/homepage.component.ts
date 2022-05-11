@@ -18,7 +18,7 @@ import { environment } from 'src/environments/environment';
 </div>
 
 <app-catg-banner [imgLink1]="imgLink2"[imgLink2]="imgLink3" [infoImg1]="imgInfo1"[infoImg2]="imgInfo2" [infoBnr]="bnrInfo2"></app-catg-banner>
-<img src={{imgLink4}} alt="">
+<img src={{imgLink4}} alt="" style="width: 96vw; margin-bottom: 100px; margin-inline: 2vw; max-height: 500px;">
 <app-samp-catalog *ngFor="let item of array_categ; index as i;" [catg_name]="item"  ></app-samp-catalog>
 
 

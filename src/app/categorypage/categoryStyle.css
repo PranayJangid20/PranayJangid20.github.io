@@ -56,10 +56,11 @@
 }
 
 .productSection{
+  margin-right: 10vw;
+  margin-right: 1vw;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex: 10;
 }
 
 .categoryBody{
@@ -75,6 +76,13 @@
   border: 1px black solid; border-radius: 2px; height: 200px; width: 80vw; margin-inline: 10vw; margin-bottom: 20px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 700px) {
   .pageBanner{
@@ -82,13 +90,20 @@
     margin-inline: 5vw
   }
 
-  .filterSection{
-    display: none;
-  }
+  
   .productSection{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .filterSection{
+    display: none;
+  }
+  .productSection{
+    margin-left: 0vw;
   }
 }

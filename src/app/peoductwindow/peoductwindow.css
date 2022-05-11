@@ -1,5 +1,8 @@
 .windowBody{
+    display: flex;
+    flex-direction: column;
     margin: 1em;
+    align-items: center;
     padding: 0.5em; border: #682522 2px solid; border-radius: 10px;
 }
 .windowBody:hover{
